@@ -1,0 +1,9 @@
+{
+  "name": "social_simple",
+  "version": "1.0.0",
+  "description": "Social network apprentice",
+  "main": "src/server.ts",
+  "repository": "https://github.com/phucphamwru/social_simple.git",
+  "author": "Phuc Pham",
+  "license": "MIT"
+}
