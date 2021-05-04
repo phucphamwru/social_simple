@@ -31,3 +31,22 @@ Reference:
  "moduleResolution": "node"
  "baseUrl": "./src"
  "experimentalDecorators": true
+
+
+# lession 12
+- Create folder 'src'
+- yarn add express (frameword NodeJS - Server)
+	"dependencies": {
+    "express": "^4.17.1"
+  }
+  +) "dependencies" - chay tren moi truong Production.
+  +) "devDepdencies" - chi chay trong moi truong dev.
+- yarn add @types/express --dev 	: use typescript.
+- create file server.ts (in folder 'src') - is strong type.
+
+- yarn add typescript nodemon ts-node --dev
+	"nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+
+- yarn server : run project
