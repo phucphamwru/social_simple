@@ -50,3 +50,17 @@ Reference:
     "typescript": "^4.2.4"
 
 - yarn server : run project
+
+# lession 13
+- MVC:
+	+ M - model
+	+ V - view
+	+ C - controller
+- Create folder core (noi chua dung chung) 
+- Create folder modules (chua cac chuc nang chinh cua Project)
+	+ index : import va export moi thu trong modules
+	+ model : tuong tac voi du lieu
+	+ service : xu li logic
+	+ controller : dieu huong - phan luong
+	+ route : dinh nghia url
+	+ interface : noi dinh nghia cac thanh phan cua 1 module.
