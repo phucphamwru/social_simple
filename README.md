@@ -74,3 +74,7 @@ Reference:
 - yarn add dotenv
 - yarn add cross-env --dev
 
+# lession 16	- Middlewares
+yarn add hpp helmet morgan cors 	(run in environment production)
+
+yarn add @types/hpp @types/morgan @types/cors --dev
