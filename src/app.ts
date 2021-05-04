@@ -28,15 +28,11 @@ export default class App {
 
 	private connectToDatabase() {
 		try {
-			/*const connectString =
-			'mongodb+srv://tedu:LLrvB941gFsxcQmz@master.0rrty.mongodb.net/tedu_social?retryWrites=true&w=majority';
-			mongoose.connect(connectString, {
-				useNewUrlParser: true,
-				useUnifiedTopology: true,
-				useFindAndModify: false,
-				useCreateIndex: true
-			});*/
-			mongoose.connect('mongodb://localhost:27017/social_simple',  {useNewUrlParser: true});
+			const connectString : string = String(process.env.MONGODB_URI);
+			if (!connectString) {
+				console.log('url error');
+			}
+			mongoose.connect(connectString,  {useNewUrlParser: true, useUnifiedTopology: true});
 			console.log('Database connected...');
 		} catch (error) {
 			console.log('Connect to database error');
