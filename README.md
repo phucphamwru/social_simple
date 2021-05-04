@@ -64,3 +64,9 @@ Reference:
 	+ controller : dieu huong - phan luong
 	+ route : dinh nghia url
 	+ interface : noi dinh nghia cac thanh phan cua 1 module.
+
+
+# lession 14
+- yarn add mongoose
+- yarn add @types/mongoose --dev
+
