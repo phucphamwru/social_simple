@@ -86,3 +86,11 @@ yarn add envalid	(validate variables env)
 Declare module => @modules/...
 
 yarn add --dev tsconfig-paths
+
+# lession 18
+define HttpError
+- exceptions : dinh nghia cac phat sinh ngoai le.
+- middleware : noi xu ly cac loi trong qua trinh chay chuong trinh.
+
+# lession 19
+writte log error

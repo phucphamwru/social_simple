@@ -1,6 +1,7 @@
 import express from "express";
 import { Route } from "@core/interfaces";
 import { Logger } from '@core/utils';
+import { errorMiddleware } from '@core/middleware';
 import mongoose from "mongoose";
 import helmet from 'helmet';
 import hpp from 'hpp';
@@ -71,5 +72,6 @@ export default class App {
 			this.app.use(morgan('dev'));
 			this.app.use(cors({ origin: true, credentials: true }));
 		}
+		this.app.use(errorMiddleware);
 	}
 }
