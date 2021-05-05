@@ -33,7 +33,7 @@ Reference:
  "experimentalDecorators": true
 
 
-# lession 12
+# lession 11
 - Create folder 'src'
 - yarn add express (frameword NodeJS - Server)
 	"dependencies": {
@@ -51,7 +51,7 @@ Reference:
 
 - yarn server : run project
 
-# lession 13
+# lession 12
 - MVC:
 	+ M - model
 	+ V - view
@@ -66,15 +66,18 @@ Reference:
 	+ interface : noi dinh nghia cac thanh phan cua 1 module.
 
 
-# lession 14
+# lession 13
 - yarn add mongoose
 - yarn add @types/mongoose --dev
 
-# lession 15
+# lession 14
 - yarn add dotenv
 - yarn add cross-env --dev
 
-# lession 16	- Middlewares
+# lession 15	- Middlewares
 yarn add hpp helmet morgan cors 	(run in environment production)
 
 yarn add @types/hpp @types/morgan @types/cors --dev
+
+# lession 16
+yarn add envalid	(validate variables env)
