@@ -81,3 +81,8 @@ yarn add @types/hpp @types/morgan @types/cors --dev
 
 # lession 16
 yarn add envalid	(validate variables env)
+
+# lession 17
+Declare module => @modules/...
+
+yarn add --dev tsconfig-paths

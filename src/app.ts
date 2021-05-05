@@ -1,6 +1,6 @@
 import express from "express";
-import { Route } from "core/interfaces";
-import { Logger } from './core/utils';
+import { Route } from "@core/interfaces";
+import { Logger } from '@core/utils';
 import mongoose from "mongoose";
 import helmet from 'helmet';
 import hpp from 'hpp';
